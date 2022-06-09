@@ -1,0 +1,10 @@
+@import "../globals/variables.scss";
+.hero {
+  background: linear-gradient(
+    to right,
+    $color-bg-light 0%,
+    $color-bg-light 70%,
+    $color-primary 30%
+  );
+  height: 100vh;
+}
